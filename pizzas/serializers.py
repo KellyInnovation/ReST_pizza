@@ -13,4 +13,5 @@ class PizzaSerializer(serializers.ModelSerializer):
             'name',
             'description',            
             'topping_set',
+            'price',
         )

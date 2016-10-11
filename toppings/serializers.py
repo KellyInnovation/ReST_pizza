@@ -10,5 +10,5 @@ class ToppingSerializer(serializers.ModelSerializer):
             'id',
             'name',
             'pizza',
-            
+            'price',
         )
