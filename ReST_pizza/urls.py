@@ -17,4 +17,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^api/', include('api.urls')),
+    url(r'^pizzas/', include('pizzas.urls', namespace='pizzas')),
+    url(r'^toppings/', include('toppings.urls', namespace='toppings')),
 ]
