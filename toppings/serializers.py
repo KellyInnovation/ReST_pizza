@@ -7,6 +7,8 @@ class ToppingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Topping
         fields = (
+            'id',
             'name',
             'pizza',
+            
         )
